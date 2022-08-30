@@ -17,6 +17,10 @@ configurations {
 	}
 }
 
+tasks.bootJar {
+	archiveFileName.set("orc-portal.jar")
+}
+
 repositories {
 	mavenCentral()
 }
